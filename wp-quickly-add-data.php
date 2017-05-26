@@ -25,5 +25,5 @@ function register_wp_qad_main_page() {
 }
 
 function render_wp_qad_main_page() {
-	echo "Код страницы.";
+	require_once WP_QAD . 'admin-page.php';
 }
