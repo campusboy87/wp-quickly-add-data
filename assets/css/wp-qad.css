@@ -5,3 +5,16 @@
 .wp-qad h2.nav-tab-wrapper {
     margin-top: 20px;
 }
+
+.list-lang-valid{
+    display: flex;
+    margin-top: 20px;
+}
+
+.lang-item {
+    max-width: 100px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #e5e5e5;
+    background-color: #fffdfd;
+}

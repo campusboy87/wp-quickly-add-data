@@ -4,6 +4,11 @@ $data    = $storage->get_lang_json();
 //d($data);
 ?>
 
+<script>
+    var qad = <?php echo $data; ?>;
+</script>
+
+
 <div class="wrap wp-qad">
 
     <h1><?php echo get_admin_page_title(); ?></h1>
@@ -14,18 +19,13 @@ $data    = $storage->get_lang_json();
         <a href="#" class="nav-tab">Демо контент</a>
     </h2>
     
-    
-
-
-    <script>
-        var qad = <?php echo $data; ?>;
-    </script>
+    <div class="list-lang-valid">
+        <!--  Место для скомпилированных шаблонов handlebars -->
+    </div>
 
     <script id="lang-valid" type="text/x-handlebars-template">
-        <div class="entry">
-            {{#each langs}}
+        <div class="lang-item">
             <h2>{{locale-name}}</h2>
-            {{/each}}
         </div>
     </script>
 
