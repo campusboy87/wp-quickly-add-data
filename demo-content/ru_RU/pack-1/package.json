@@ -1,0 +1,8 @@
+{
+  "name": "Фруктовый пакет",
+  "desc": "Много новостей про фрукты, а также небольшая Wiki на тему фруктов.",
+  "ver": 0.1,
+  "author": "campusboy",
+  "author URI": "https://automattic.com/wordpress-plugins/",
+  "license": "GPLv2 or later"
+}
